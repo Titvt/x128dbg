@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\pluginsdk">
+      <UniqueIdentifier>{8c49831f-cabc-487f-b767-f18116d48c7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\pluginsdk\dbghelp">
+      <UniqueIdentifier>{24c20ece-ca39-4ebb-99e0-73a211e8cfdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\pluginsdk\DeviceNameResolver">
+      <UniqueIdentifier>{305e986c-ff9f-4d0c-8319-e43806de5e45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\pluginsdk\jansson">
+      <UniqueIdentifier>{0525afcb-0ab0-4a23-aa52-1a629070f156}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\pluginsdk\lz4">
+      <UniqueIdentifier>{95fef8e9-e0d1-45bb-9c30-1ad295a19943}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\pluginsdk\TitanEngine">
+      <UniqueIdentifier>{a02efdf2-0ba5-4c50-8403-0b6802b52a70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\pluginsdk\XEDParse">
+      <UniqueIdentifier>{820c06ec-314a-47c4-a8cf-0a0bb41aaae3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="plugin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pluginmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="plugin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginmain.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_dbgfunctions.h">
+      <Filter>头文件\pluginsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_plugin_types.h">
+      <Filter>头文件\pluginsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_plugins.h">
+      <Filter>头文件\pluginsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi.h">
+      <Filter>头文件\pluginsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_argument.h">
+      <Filter>头文件\pluginsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_assembler.h">
+      <Filter>头文件\pluginsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_bookmark.h">
+      <Filter>头文件\pluginsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_comment.h">
+      <Filter>头文件\pluginsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_debug.h">
+      <Filter>头文件\pluginsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_flag.h">
+      <Filter>头文件\pluginsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_function.h">
+      <Filter>头文件\pluginsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_gui.h">
+      <Filter>头文件\pluginsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_label.h">
+      <Filter>头文件\pluginsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_memory.h">
+      <Filter>头文件\pluginsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_misc.h">
+      <Filter>头文件\pluginsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_module.h">
+      <Filter>头文件\pluginsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_pattern.h">
+      <Filter>头文件\pluginsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_register.h">
+      <Filter>头文件\pluginsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_stack.h">
+      <Filter>头文件\pluginsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\_scriptapi_symbol.h">
+      <Filter>头文件\pluginsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\bridgegraph.h">
+      <Filter>头文件\pluginsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\bridgelist.h">
+      <Filter>头文件\pluginsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\bridgemain.h">
+      <Filter>头文件\pluginsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\dbghelp\dbghelp.h">
+      <Filter>头文件\pluginsdk\dbghelp</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\DeviceNameResolver\DeviceNameResolver.h">
+      <Filter>头文件\pluginsdk\DeviceNameResolver</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\jansson\jansson.h">
+      <Filter>头文件\pluginsdk\jansson</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\jansson\jansson_config.h">
+      <Filter>头文件\pluginsdk\jansson</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\jansson\jansson_x64dbg.h">
+      <Filter>头文件\pluginsdk\jansson</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\lz4\lz4.h">
+      <Filter>头文件\pluginsdk\lz4</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\lz4\lz4file.h">
+      <Filter>头文件\pluginsdk\lz4</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\lz4\lz4hc.h">
+      <Filter>头文件\pluginsdk\lz4</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\XEDParse\XEDParse.h">
+      <Filter>头文件\pluginsdk\XEDParse</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginsdk\TitanEngine\TitanEngine.h">
+      <Filter>头文件\pluginsdk\TitanEngine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="pluginsdk\x32bridge.lib">
+      <Filter>头文件\pluginsdk</Filter>
+    </Library>
+    <Library Include="pluginsdk\x32dbg.lib">
+      <Filter>头文件\pluginsdk</Filter>
+    </Library>
+    <Library Include="pluginsdk\x64bridge.lib">
+      <Filter>头文件\pluginsdk</Filter>
+    </Library>
+    <Library Include="pluginsdk\x64dbg.lib">
+      <Filter>头文件\pluginsdk</Filter>
+    </Library>
+    <Library Include="pluginsdk\dbghelp\dbghelp_x64.a">
+      <Filter>头文件\pluginsdk\dbghelp</Filter>
+    </Library>
+    <Library Include="pluginsdk\dbghelp\dbghelp_x64.lib">
+      <Filter>头文件\pluginsdk\dbghelp</Filter>
+    </Library>
+    <Library Include="pluginsdk\dbghelp\dbghelp_x86.a">
+      <Filter>头文件\pluginsdk\dbghelp</Filter>
+    </Library>
+    <Library Include="pluginsdk\dbghelp\dbghelp_x86.lib">
+      <Filter>头文件\pluginsdk\dbghelp</Filter>
+    </Library>
+    <Library Include="pluginsdk\DeviceNameResolver\DeviceNameResolver_x64.a">
+      <Filter>头文件\pluginsdk\DeviceNameResolver</Filter>
+    </Library>
+    <Library Include="pluginsdk\DeviceNameResolver\DeviceNameResolver_x64.lib">
+      <Filter>头文件\pluginsdk\DeviceNameResolver</Filter>
+    </Library>
+    <Library Include="pluginsdk\DeviceNameResolver\DeviceNameResolver_x86.a">
+      <Filter>头文件\pluginsdk\DeviceNameResolver</Filter>
+    </Library>
+    <Library Include="pluginsdk\DeviceNameResolver\DeviceNameResolver_x86.lib">
+      <Filter>头文件\pluginsdk\DeviceNameResolver</Filter>
+    </Library>
+    <Library Include="pluginsdk\jansson\jansson_x64.a">
+      <Filter>头文件\pluginsdk\jansson</Filter>
+    </Library>
+    <Library Include="pluginsdk\jansson\jansson_x64.lib">
+      <Filter>头文件\pluginsdk\jansson</Filter>
+    </Library>
+    <Library Include="pluginsdk\jansson\jansson_x86.a">
+      <Filter>头文件\pluginsdk\jansson</Filter>
+    </Library>
+    <Library Include="pluginsdk\jansson\jansson_x86.lib">
+      <Filter>头文件\pluginsdk\jansson</Filter>
+    </Library>
+    <Library Include="pluginsdk\lz4\lz4_x64.a">
+      <Filter>头文件\pluginsdk\lz4</Filter>
+    </Library>
+    <Library Include="pluginsdk\lz4\lz4_x64.lib">
+      <Filter>头文件\pluginsdk\lz4</Filter>
+    </Library>
+    <Library Include="pluginsdk\lz4\lz4_x86.a">
+      <Filter>头文件\pluginsdk\lz4</Filter>
+    </Library>
+    <Library Include="pluginsdk\lz4\lz4_x86.lib">
+      <Filter>头文件\pluginsdk\lz4</Filter>
+    </Library>
+    <Library Include="pluginsdk\XEDParse\XEDParse_x64.a">
+      <Filter>头文件\pluginsdk\XEDParse</Filter>
+    </Library>
+    <Library Include="pluginsdk\XEDParse\XEDParse_x64.lib">
+      <Filter>头文件\pluginsdk\XEDParse</Filter>
+    </Library>
+    <Library Include="pluginsdk\XEDParse\XEDParse_x86.a">
+      <Filter>头文件\pluginsdk\XEDParse</Filter>
+    </Library>
+    <Library Include="pluginsdk\XEDParse\XEDParse_x86.lib">
+      <Filter>头文件\pluginsdk\XEDParse</Filter>
+    </Library>
+    <Library Include="pluginsdk\TitanEngine\TitanEngine_x64.a">
+      <Filter>头文件\pluginsdk\TitanEngine</Filter>
+    </Library>
+    <Library Include="pluginsdk\TitanEngine\TitanEngine_x64.lib">
+      <Filter>头文件\pluginsdk\TitanEngine</Filter>
+    </Library>
+    <Library Include="pluginsdk\TitanEngine\TitanEngine_x86.a">
+      <Filter>头文件\pluginsdk\TitanEngine</Filter>
+    </Library>
+    <Library Include="pluginsdk\TitanEngine\TitanEngine_x86.lib">
+      <Filter>头文件\pluginsdk\TitanEngine</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
