@@ -211,6 +211,14 @@
     <Library Include="pluginsdk\XEDParse\XEDParse_x86.a" />
     <Library Include="pluginsdk\XEDParse\XEDParse_x86.lib" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\picture\1.png" />
+    <Image Include="..\picture\2.png" />
+    <Image Include="..\picture\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

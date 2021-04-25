@@ -34,6 +34,9 @@
     <Filter Include="头文件\pluginsdk\XEDParse">
       <UniqueIdentifier>{820c06ec-314a-47c4-a8cf-0a0bb41aaae3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="picture">
+      <UniqueIdentifier>{c8f31077-18ad-4256-aca6-f4e859dcad60}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="plugin.cpp">
@@ -235,5 +238,19 @@
     <Library Include="pluginsdk\TitanEngine\TitanEngine_x86.lib">
       <Filter>头文件\pluginsdk\TitanEngine</Filter>
     </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\picture\1.png">
+      <Filter>picture</Filter>
+    </Image>
+    <Image Include="..\picture\2.png">
+      <Filter>picture</Filter>
+    </Image>
+    <Image Include="..\picture\3.png">
+      <Filter>picture</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md" />
   </ItemGroup>
 </Project>
